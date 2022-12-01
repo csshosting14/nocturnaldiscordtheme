@@ -1,5 +1,7 @@
 @import url(https://codedotspectra.github.io/themes/core/settings-icons.css);
 @import url(https://codedotspectra.github.io/themes/core/hljs.css);
+@import url(https://codedotspectra.github.io/themes/core/custom-font.css);
+@import url('https://fonts.cdnfonts.com/css/whitney-2');
 
 :root {
 	--backgroundColor01: #1e2731;
@@ -25,6 +27,7 @@
 	--rs-invisible-color: #747f8d;
 	--rs-phone-visible: block;
 	--rs-phone-color: var(--rs-online-color);
+	--customFont: "Whitney"
 }
 
 #app-mount .applicationStore-2nk7Lo,
