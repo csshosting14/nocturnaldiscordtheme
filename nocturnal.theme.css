@@ -1,0 +1,73 @@
+/**
+* @name Nocturnal
+* @author Spectra#4577
+* @description For when default discord just isn't dark enough, a theme for those who live a night
+* @invite PZdnCVD
+* @version 3.0.0
+* @website https://betterdiscord.app/theme/Nocturnal
+*/
+@import url("https://codedotspectra.github.io/themes/themes-cores/nocturnal.css");
+/*
+                                                                                                                                                                     
+                                                                                                                                                                     
+NNNNNNNN        NNNNNNNN                                              tttt                                                                                   lllllll 
+N:::::::N       N::::::N                                           ttt:::t                                                                                   l:::::l 
+N::::::::N      N::::::N                                           t:::::t                                                                                   l:::::l 
+N:::::::::N     N::::::N                                           t:::::t                                                                                   l:::::l 
+N::::::::::N    N::::::N   ooooooooooo       ccccccccccccccccttttttt:::::ttttttt    uuuuuu    uuuuuu rrrrr   rrrrrrrrr   nnnn  nnnnnnnn      aaaaaaaaaaaaa    l::::l 
+N:::::::::::N   N::::::N oo:::::::::::oo   cc:::::::::::::::ct:::::::::::::::::t    u::::u    u::::u r::::rrr:::::::::r  n:::nn::::::::nn    a::::::::::::a   l::::l 
+N:::::::N::::N  N::::::No:::::::::::::::o c:::::::::::::::::ct:::::::::::::::::t    u::::u    u::::u r:::::::::::::::::r n::::::::::::::nn   aaaaaaaaa:::::a  l::::l 
+N::::::N N::::N N::::::No:::::ooooo:::::oc:::::::cccccc:::::ctttttt:::::::tttttt    u::::u    u::::u rr::::::rrrrr::::::rnn:::::::::::::::n           a::::a  l::::l 
+N::::::N  N::::N:::::::No::::o     o::::oc::::::c     ccccccc      t:::::t          u::::u    u::::u  r:::::r     r:::::r  n:::::nnnn:::::n    aaaaaaa:::::a  l::::l 
+N::::::N   N:::::::::::No::::o     o::::oc:::::c                   t:::::t          u::::u    u::::u  r:::::r     rrrrrrr  n::::n    n::::n  aa::::::::::::a  l::::l 
+N::::::N    N::::::::::No::::o     o::::oc:::::c                   t:::::t          u::::u    u::::u  r:::::r              n::::n    n::::n a::::aaaa::::::a  l::::l 
+N::::::N     N:::::::::No::::o     o::::oc::::::c     ccccccc      t:::::t    ttttttu:::::uuuu:::::u  r:::::r              n::::n    n::::na::::a    a:::::a  l::::l 
+N::::::N      N::::::::No:::::ooooo:::::oc:::::::cccccc:::::c      t::::::tttt:::::tu:::::::::::::::uur:::::r              n::::n    n::::na::::a    a:::::a l::::::l
+N::::::N       N:::::::No:::::::::::::::o c:::::::::::::::::c      tt::::::::::::::t u:::::::::::::::ur:::::r              n::::n    n::::na:::::aaaa::::::a l::::::l
+N::::::N        N::::::N oo:::::::::::oo   cc:::::::::::::::c        tt:::::::::::tt  uu::::::::uu:::ur:::::r              n::::n    n::::n a::::::::::aa:::al::::::l
+NNNNNNNN         NNNNNNN   ooooooooooo       cccccccccccccccc          ttttttttttt      uuuuuuuu  uuuurrrrrrr              nnnnnn    nnnnnn  aaaaaaaaaa  aaaallllllll
+                                                                                                                                                                     
+                                                                                                                                                                     
+*/
+@import url('https://fonts.cdnfonts.com/css/whitney-2');
+@import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
+@import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
+@import url("https://codedotspectra.github.io/themes/core/badges.css");
+@import url("https://codedotspectra.github.io/themes/core/hljs.css"); /* Better Hljs */
+:root {
+  --backgroundColor01: #202a38;
+  --backgroundColor02: #12171d;
+  --mainColor: #c92222;
+  --gradientColor01: red;
+  --gradientColor02: red;
+
+}
+a {
+  color:white;
+}
+#app-mount .actionIcon-2sw4Sl,
+#app-mount .attachButtonPlus-3IYelE,
+#app-mount .button-12Fmur svg,
+#app-mount .button-2BMPJJ,
+#app-mount .icon-2xnN2Y,
+#app-mount .emojiSection-3QtaWO {
+  color:#c92222 !important;
+  fill:#c92222 !important;
+}
+
+
+#app-mount .wrapper-1ZcZW- {
+  background-color: rgb(17, 0, 255);
+}
+
+#app-mount .topSectionPlaying-1J5E4n {
+	background-color: white;
+	background-image: linear-gradient(-45deg, white, white) !important
+}
+
+#app-mount .mediaBarGrabber-FvJKJg,
+#app-mount .mediaBarProgress-38I317,
+#app-mount .mediaBarProgress-38I317:after,
+#app-mount .mediaBarProgress-38I317:before {
+	background-color: white !important
+}
